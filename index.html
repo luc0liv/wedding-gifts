@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa Lista de Presentes</title>
+    <!-- Carrega o Tailwind CSS para estilos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carrega as fontes Inter (para o corpo) e Dancing Script (para o título) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Define a fonte Inter como padrão */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Define a fonte especial para o título */
+        .fancy-title {
+            font-family: 'Dancing Script', cursive;
+        }
+    </style>
+</head>
+<!-- Fundo com um degradê suave e romântico -->
+<body class="bg-gradient-to-br from-pink-100 via-purple-100 to-indigo-100 py-12 px-4">
+
+    <main class="max-w-3xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
+        <div class="p-8 md:p-12">
+            
+            <!-- Cabeçalho -->
+            <div class="text-center mb-10">
+                <!-- Ícone de Coração (substituindo o de presente) -->
+                <div class="flex justify-center mb-4">
+                    <svg class="w-16 h-16 text-pink-500" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="none">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                    </svg>
+                </div>
+                <!-- Título com fonte especial e cor romântica -->
+                <h1 class="fancy-title text-6xl font-bold text-purple-700">Nossa Lista de Presentes</h1>
+                <p class="text-lg text-stone-600 mt-6">
+                    Olá, família e amigos! Para quem quiser nos presentear, criamos esta lista com alguns itens que adoraríamos ganhar.
+                </p>
+            </div>
+
+            <!-- Mensagem explicativa para os convidados -->
+            <div class="bg-purple-50 border-l-4 border-purple-400 p-4 rounded-lg mb-10">
+                <h3 class="font-bold text-purple-800">Uma nota importante para nossos convidados:</h3>
+                <p class="text-purple-700 mt-2">
+                    Abaixo, listamos nossas sugestões. Para os itens com um ícone de link (🔗), você pode clicar neles para abrir uma página da internet com uma <strong>sugestão de loja</strong>.
+                </p>
+                <p class="text-purple-700 mt-1 text-sm">
+                    Isso é apenas uma ideia! Sinta-se totalmente à vontade para comprar em qualquer outra loja da sua confiança. O que importa é o seu carinho!
+                </p>
+            </div>
+
+
+            <!-- Lista de Itens -->
+            <div class="space-y-5">
+
+                <!-- 
+                  Cada item clicável é um link <a>.
+                  target="_blank" faz o link abrir em uma nova aba.
+                  Estilos de hover e cores foram alterados para roxo/pink.
+                -->
+                
+                <a href="https://br.shp.ee/oZGnkvG" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-purple-300 hover:bg-purple-50 cursor-pointer">
+                    <span class="font-medium text-lg text-stone-700">Kit organizador de geladeira</span>
+                    <!-- Ícone de link externo (cor alterada) -->
+                    <svg class="w-5 h-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                </a>
+
+                <a href="https://br.shp.ee/PvzcrAK" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-purple-300 hover:bg-purple-50 cursor-pointer">
+                    <span class="font-medium text-lg text-stone-700">Kit 10 potes herméticos de vidro (tipo marmita)</span>
+                    <svg class="w-5 h-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                </a>
+
+                <a href="https://br.shp.ee/TUUTiri" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-purple-300 hover:bg-purple-50 cursor-pointer">
+                    <span class="font-medium text-lg text-stone-700">Escorredor de louça</span>
+                    <svg class="w-5 h-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                </a>
+
+                <a href="https://br.shp.ee/qqCZbTe" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-purple-300 hover:bg-purple-50 cursor-pointer">
+                    <span class="font-medium text-lg text-stone-700">Fatiador de legumes 10 em 1</span>
+                    <svg class="w-5 h-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                </a>
+
+                <a href="https://br.shp.ee/UWjh2y6" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-purple-300 hover:bg-purple-50 cursor-pointer">
+                    <span class="font-medium text-lg text-stone-700">Organizadores de geladeira</span>
+                    <svg class="w-5 h-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                </a>
+
+                <a href="https://br.shp.ee/LPhmAZ5" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-purple-300 hover:bg-purple-50 cursor-pointer">
+                    <span class="font-medium text-lg text-stone-700">Porta temperos</span>
+                    <svg class="w-5 h-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                </a>
+
+                <a href="https://br.shp.ee/zBhDWdp" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-purple-300 hover:bg-purple-50 cursor-pointer">
+                    <span class="font-medium text-lg text-stone-700">Cesto de roupa suja</span>
+                    <svg class="w-5 h-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                </a>
+
+                <a href="https://br.shp.ee/V5kCzhp" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-purple-300 hover:bg-purple-50 cursor-pointer">
+                    <span class="font-medium text-lg text-stone-700">Saleiro</span>
+                    <svg class="w-5 h-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                </a>
+
+                <a href="https://br.shp.ee/gKY71VN" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-purple-300 hover:bg-purple-50 cursor-pointer">
+                    <span class="font-medium text-lg text-stone-700">Kit toalhas banho e rosto</span>
+                    <svg class="w-5 h-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                </a>
+
+                <a href="https://www.mercadolivre.com.br/p/MLB15963680?pdp_filters=item_id:MLB3710217911&attributes=COLOR:Preto_vpp,VOLTAGE:127V_vpp#origin=share&sid=share&wid=MLB3710217911&action=copy" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-purple-300 hover:bg-purple-50 cursor-pointer">
+                    <span class="font-medium text-lg text-stone-700">Liquidificador Philips Walita</span>
+                    <svg class="w-5 h-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                </a>
+
+                <a href="https://www.mercadolivre.com.br/p/MLB45687465?pdp_filters=item_id:MLB5471700912&attributes=MATTRESS_SIZE:Casal_vpp#origin=share&sid=share&wid=MLB5471700912&action=copy" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-purple-300 hover:bg-purple-50 cursor-pointer">
+                    <span class="font-medium text-lg text-stone-700">Lençol casal</span>
+                    <svg class="w-5 h-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                </a>
+
+                <a href="https://a.co/d/iVE78xM" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-purple-300 hover:bg-purple-50 cursor-pointer">
+                    <span class="font-medium text-lg text-stone-700">Mixer</span>
+                    <svg class="w-5 h-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                </a>
+
+                <a href="https://a.co/d/coDmuyg" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-purple-300 hover:bg-purple-50 cursor-pointer">
+                    <span class="font-medium text-lg text-stone-700">Jarra de vidro (suco)</span>
+                    <svg class="w-5 h-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                </a>
+
+                <a href="https://a.co/d/4ksJoDO" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-purple-300 hover:bg-purple-50 cursor-pointer">
+                    <span class="font-medium text-lg text-stone-700">Airfryer</span>
+                    <svg class="w-5 h-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                </a>
+
+                <a href="https://www.amazon.com.br/Cafeteira-El%C3%A9trica-Electrolux-Efficient-ECM20/dp/B09SVQ5KHF/ref=asc_df_B09SVQ5KHF?mcid=96aafe45d7173fbeb6c424037d09afe5&tag=googleshopp00-20&linkCode=df0&hvadid=709870389015&hvpos=&hvnetw=g&hvrand=6322592136641084761&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100898&hvtargid=pla-1656354261515&language=pt_BR&gad_source=1&th=1" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-purple-300 hover:bg-purple-50 cursor-pointer">
+                    <span class="font-medium text-lg text-stone-700">Cafeteira</span>
+                    <svg class="w-5 h-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                </a>
+
+                <!-- Itens sem link -->
+                <div class="flex justify-between items-center p-6 bg-stone-50 rounded-lg border border-stone-200 opacity-70">
+                    <span class="font-medium text-lg text-stone-500">Lixeira para cozinha (GRANDE)</span>
+                    <span class="text-sm text-stone-400 italic">(Sem link)</span>
+                </div>
+
+                <div class="flex justify-between items-center p-6 bg-stone-50 rounded-lg border border-stone-200 opacity-70">
+                    <span class="font-medium text-lg text-stone-500">Lixeira para pia de cozinha (PEQUENA)</span>
+                    <span class="text-sm text-stone-400 italic">(Sem link)</span>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé atualizado -->
+    <footer class="text-center mt-8 text-purple-800 text-sm font-medium">
+        Gerada com ❤️
+    </footer>
+
+</body>
+</html>
